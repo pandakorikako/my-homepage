@@ -1,0 +1,19 @@
+.sidebar {
+  position: fixed;
+  top: 70px;
+  right: 50px;
+  font-family: myfont;
+  font-size: 30px;
+}
+
+.sidebar ul{
+  list-style: none;
+}
+
+.sidebar li{
+  margin-top: 15px;
+}
+
+.sidebar img{
+  width: 40px;
+}

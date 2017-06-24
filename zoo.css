@@ -1,0 +1,25 @@
+ .zoo{
+   font-family: myfont;
+   margin: 0 auto;
+ }
+
+ .ZOO{
+   font-size: 60px;
+   display: inline-block;
+   margin-bottom: -5px;
+   font-weight: normal;
+ }
+
+ .zoo-PANDA{
+   width: 700px;
+ }
+
+ .sentence{
+   font-family: Japanese;
+   font-weight: normal;
+   font-size: 20px;
+   margin-top: 3px;
+   margin-bottom: 3px;
+   margin-left: 50px;
+   margin-right: 10px;
+ }

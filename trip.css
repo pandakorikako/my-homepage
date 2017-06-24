@@ -1,0 +1,25 @@
+.trip{
+  font-family: myfont;
+  margin: 0 auto;
+}
+
+.TRIP{
+  font-size: 50px;
+  display: inline-block;
+  margin-bottom: -5px;
+  font-weight: normal;
+}
+
+.trip-TRIP{
+  width: 700px;
+}
+
+.sentence{
+  font-family: Japanese;
+  font-weight: normal;
+  font-size: 20px;
+  margin-top: 3px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+  margin-right: 20px;
+  }

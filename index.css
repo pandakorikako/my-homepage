@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "myfont";
+  src:url("font/Sarre_TestversionThin.otf");
+}
+
+@font-face {
+  font-family: "japanese";
+  src:url("font/Japanese.ttf");
+}
+
+body {
+  margin-top: -20px;
+}
+
+.warapper {
+  margin: 0 auto;
+  width: 800px;
+}
+
+.top-head {
+  font-family: myfont;
+  margin-left: 100px;
+}
+
+.top-head img{
+  width: 160px;
+}
+
+.KYUNKYUN {
+  font-size: 25px;
+  margin-left: 320px;
+  font-weight: normal;
+}
+
+.SANKAKU {
+  margin-left: 150px;
+}
+
+.SANKAKUU {
+  margin-right: 100px;
+  padding-bottom: 10px;
+}
+
+.FUKUDA {
+  font-size: 50px;
+  margin-top: -22px;
+  margin-left: 5px;
+  font-weight: normal;
+}
+
+.JUMP {
+  width: 700px;
+}

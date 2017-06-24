@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>kyunkyun</title>
+  <link rel="stylesheet"  href="./sidebar.css">
+  <link rel="stylesheet"  href="./index.css">
+  <link rel="stylesheet"  href="./about.css">
+  <link rel="stylesheet"  href="./zoo.css">
+  <link rel="stylesheet"  href="./trip.css">
+  <link rel="stylesheet"  href="./my photoes.css">
+</head>
+<body>
+
+  <!-- sidebar -->
+  <nav class="sidebar">
+    <ul>
+      <li id="top-link">top</li>
+      <li id="about-link">about</li>
+      <li id="zoo-link">zoo</li>
+      <li id="trip-link">trip</li>
+      <li id="myphotoes-link">my photoes</li>
+      <li>
+        <a href="https://www.instagram.com/pandakorikako/?hl=ja">
+          <img src="img/instagram.png">
+        </a>
+      </li>
+      <li>
+        <a href="https://twitter.com/pandako_rikako">
+          <img src="img/twitter.png">
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <!-- sidebar -->
+
+  <!-- top -->
+  <div class="warapper">
+    <div class="top-head">
+      <h1 class="KYUNKYUN">kyunkyun</h1>
+      <img class="SANKAKU" src="img/sankaku.png">
+      <img class="SANKAKUU"  src="img/sankakuu.png">
+      <h1 class="FUKUDA">Fukuda Rikako</h1>
+    </div>
+    <img class="JUMP"  src="img/jump.png">
+    <!-- top -->
+
+    <!-- about -->
+    <div class="about">
+      <h1 class="ABOUT">about</h1>
+      <img class="about-SANKAKUU"  src="img/sankakuu.png">
+      <img class="ROOM" src="img/room.png">
+      <h1 class="name">FUKUDA RIKAKO</h1>
+      <h3 class="intro">背が小さいです。(152cm)</h3>
+      <h3 class="intro">2017年6月14日現在 毛先がオレンジです。(グレてるわけではありません)</h3>
+      <h3 class="intro">喋ることが好きです。でも、疲れている時は全く喋りません。</h3>
+      <h3 class="intro">死ぬまでに一回坊主になりたいです。</h3>
+    </div>
+    <!-- about -->
+
+    <!-- zoo -->
+    <div class="zoo">
+      <h1  class="ZOO">zoo</h1>
+      <img class="about-SANKAKUU"  src="img/sankakuu.png">
+      <img class="zoo-PANDA"  src="img/panda.png">
+      <h1 class="sentence">動物園に行くことが好きです。</h1>
+      <h1 class="sentence">好きな動物はパンダです。パンダが好きすぎて台湾までパンダに会いに行きました。</h1>
+      <h1 class="sentence">好きな動物園はズーラシアです。森の中にある動物園なので動物たちが生き生きしています。</h1>
+    </div>
+    <!-- zoo -->
+
+    <!-- trip-->
+    <div class="trip">
+      <h1 class="TRIP">trip</h1>
+      <img class="about-SANKAKUU"  src="img/sankakuu.png">
+      <img class="trip-TRIP"  src="img/castle.png">
+      <h1 class="sentence">上の写真はシンガポールのサンタンモスクです。</h1>
+      <h1 class="sentence">我が家は旅行することが好きです。</h1>
+      <h1 class="sentence">仙台、長崎、大阪、台北、シンガポールなどに行きました。</h1>
+      <h1 class="sentence">その土地特有の景色が見れるので旅行が好きです。</h1>
+    </div>
+    <!-- trip -->
+
+    <div class="myphotoes" id="my-photos">
+      <div>
+        <h1 class="PHOTO">my photoes</h1>
+        <img class="about-SANKAKUU"  src="img/sankakuu.png">
+      </div>
+      <img class="photo" src="img/kutu.png">
+      <img class="photo" src="img/aisu.png">
+      <img class="photo" src="img/okasi.png">
+      <img class="photo" src="img/hana.png">
+    </div>
+  </div>
+
+
+</body>
+<script
+src="https://code.jquery.com/jquery-3.2.1.js"
+integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+crossorigin="anonymous"></script>
+<script>
+$('#top-link').on('click', function() {
+  $("html,body").animate({scrollTop:$('.top-head').offset().top});
+});
+$('#about-link').on('click', function() {
+  $("html,body").animate({scrollTop:$('.about').offset().top});
+});
+$('#zoo-link').on('click', function() {
+  $("html,body").animate({scrollTop:$('.zoo').offset().top});
+});
+$('#trip-link').on('click', function() {
+  $("html,body").animate({scrollTop:$('.trip').offset().top});
+});
+$('#myphotoes-link').on('click', function() {
+  $("html,body").animate({scrollTop:$('.myphotoes').offset().top});
+});
+</script>
+
+</html>

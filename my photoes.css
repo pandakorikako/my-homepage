@@ -1,0 +1,17 @@
+.myphotoes{
+  font-family: myfont;
+  margin: 0 auto;
+}
+
+.PHOTO{
+  font-size: 50px;
+  display: inline-block;
+  margin-bottom: -5px;
+  font-weight: normal;
+}
+
+.photo{
+  width: 350px;
+  border-radius: 45px;
+  display: inline-block;
+}
